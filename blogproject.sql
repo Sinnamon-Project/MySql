@@ -11,7 +11,7 @@ last_name varchar(20) not null);
 create table blog_post(
 post_id tinyint not null primary key auto_increment,
 title varchar(50) not null,
-date_time date,
+date_time datetime not NULL default current_timestamp,
 text_post text,
 picture varchar(200),
 author tinyint not null,
