@@ -33,9 +33,12 @@ insert into blog_post values (4,"Donegal",15/06/2022,"Donegal is scenic place", 
 insert into blog_post values (5,"Cork",15/06/2022,"Cork is scenic place", "xyz", 2);
 
 
+
  
 select * from author;
 select * from blog_post;
+
+
 
  
  
